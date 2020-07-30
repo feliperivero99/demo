@@ -14,13 +14,13 @@
 
     /* ----- Navbar Scroll To Fixed ----- */
     function navbarScrollfixed() {
-        $('.navbar-scrolltofixed').scrollToFixed();
+        $('.navbar-scrolltofixedff').scrollToFixed();
         var summaries = $('.summary');
         summaries.each(function(i) {
             var summary = $(summaries[i]);
             var next = summaries[i + 1];
             summary.scrollToFixed({
-                marginTop: $('.navbar-scrolltofixed').outerHeight(true) + 10,
+                marginTop: $('.navbar-scrolltofixedrr').outerHeight(true) + 10,
                 limit: function() {
                     var limit = 0;
                     if (next) {
