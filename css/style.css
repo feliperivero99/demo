@@ -3505,7 +3505,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 }
 .home1-overlay:before {
   content: "";
-  background-color: rgb(29, 41, 62);
+ /* background-color: rgb(29, 41, 62);*/
   opacity: 0.6;
   position: absolute;
   bottom: 0;
@@ -6002,7 +6002,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   background-color: #1d293e;
 }
 .our-testimonial:before{
-  background-image: url("../images/background/2.jpg");
+  background-image: url("../images/background/testi.jpg");
   bottom: 0;
   content: "";
   left: 0;
@@ -7001,9 +7001,10 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   background-color: #484848;
 }
 .copyright-widget p {
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Nunito";
-  color: #8a99b3;
+  color:white;
+  font-weight:bold;
   line-height: 2.143;
   margin-bottom: 0;
 }
