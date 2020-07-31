@@ -16416,3 +16416,7 @@ button.gm-ui-hover-effect:focus {
 .gm-style-iw-d p span{
   margin-right: 10px;
 }
+
+.logosize{
+  width:150px; height:auto;
+}
